@@ -19,8 +19,8 @@ lista2_ej = [4,3,5,3,9,3]
 lista1 = lista1_input
 lista2 = lista2_input
 
-lista1_ej.sort()
-lista2_ej.sort()
+lista1.sort()
+lista2.sort()
 
 print('Primera Parte')
 distancia =list(map(lambda x,y: ((x-y)**2)**.5,lista1,lista2)) 
