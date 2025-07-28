@@ -33,4 +33,4 @@ for elemento in lista1:
     repeticiones = lista2.count(elemento) 
     puntaje = elemento*repeticiones
     puntajeT += puntaje
-print('PUNTAJE DE SIMIMILITUD FINAL: ',puntajeT)
+print('PUNTAJE DE SIMILITUD FINAL: ',puntajeT)
